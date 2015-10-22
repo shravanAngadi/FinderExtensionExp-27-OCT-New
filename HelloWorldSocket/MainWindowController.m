@@ -50,14 +50,17 @@ static int count;
     //printf("User said add his PC to fav's %@ ", absolutePath);
     
     
+    [self.sideBarMenuController addPathToFavourites:absolutePath];
     
-    
+    printf("Added to fav.");
 }
 
 -(IBAction) removePCFromFav:(id)sender{
     NSString *absolutePath = @"/Users/airatch/PersonalContent-Sync";
     
     NSLog(@"Remove PC from fav's %@ ", absolutePath);
+    
+    [self.sideBarMenuController removePathFromFavourites:absolutePath];
     
 }
 

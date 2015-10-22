@@ -11,5 +11,7 @@
 @interface SideBarMenuController : NSObject
 
 
+-(void) addPathToFavourites:(NSString *)path;
+-(void) removePathFromFavourites:(NSString *)path;
 
 @end
