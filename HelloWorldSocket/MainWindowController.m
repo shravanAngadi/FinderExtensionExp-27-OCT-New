@@ -86,7 +86,7 @@ static int count;
     
     
     /*---- Read the message from the server into the buffer ----*/
-    recv(clientSocket, buffer, 1024, 0);
+    //recv(clientSocket, buffer, 1024, 0);
     
     /*---- Print the received message ----*/
     printf("\nData received: %s",buffer);
