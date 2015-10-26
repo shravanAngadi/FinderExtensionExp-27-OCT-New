@@ -547,6 +547,7 @@
 				B1AC43491BD9EBE900548E86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1E7007B1BC3DEA3007F33A9 /* Build configuration list for PBXProject "HelloWorldSocket" */ = {
 			isa = XCConfigurationList;

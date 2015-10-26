@@ -11,7 +11,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="Hz6-mo-xeY">
+        <customView identifier="mainView" id="Hz6-mo-xeY">
             <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
@@ -48,8 +48,16 @@
                         <action selector="removePCFromFav:" target="-2" id="5P2-NX-414"/>
                     </connections>
                 </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vjE-u3-Jw1">
+                    <rect key="frame" x="228" y="166" width="252" height="86"/>
+                    <animations/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="SclBanner.png" id="EVJ-rG-kVR"/>
+                </imageView>
             </subviews>
             <animations/>
         </customView>
     </objects>
+    <resources>
+        <image name="SclBanner.png" width="128" height="128"/>
+    </resources>
 </document>

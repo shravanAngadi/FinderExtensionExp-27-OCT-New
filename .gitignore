@@ -1,0 +1,5 @@
+# User interface state #
+#######################
+*.xcuserstate
+.DS_Store
+*.xcuserdatad/*
