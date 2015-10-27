@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12334661BDE35FC00A53EE8 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = B12334651BDE35FC00A53EE8 /* FinderSync.m */; };
+		B12334691BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B127BBE71BC4FA8A00DE0FB7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B127BBE51BC4FA8A00DE0FB7 /* MainWindowController.m */; };
 		B127BBE81BC4FA8A00DE0FB7 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B127BBE61BC4FA8A00DE0FB7 /* MainWindowController.xib */; };
 		B13929F11BD6231900A003AB /* SideBarMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13929F01BD6231900A003AB /* SideBarMenuController.m */; };
-		B1AC43441BD9EBE900548E86 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AC43431BD9EBE900548E86 /* FinderSync.m */; };
-		B1AC43471BD9EBE900548E86 /* AWFinderSyncExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B1AC433D1BD9EBE800548E86 /* AWFinderSyncExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B1D3AC1E1BDF493D0051A80F /* AirWatchSclSync32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */; };
+		B1D3AC211BDF4E830051A80F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC1F1BDF4E830051A80F /* Contents.json */; };
+		B1D3AC221BDF4E830051A80F /* SclBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC201BDF4E830051A80F /* SclBanner.png */; };
 		B1E700871BC3DEA3007F33A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E700861BC3DEA3007F33A9 /* AppDelegate.m */; };
 		B1E700891BC3DEA3007F33A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E700881BC3DEA3007F33A9 /* main.m */; };
 		B1E7008B1BC3DEA3007F33A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */; };
@@ -20,12 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B1AC43451BD9EBE900548E86 /* PBXContainerItemProxy */ = {
+		B12334671BDE35FC00A53EE8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B1E700781BC3DEA3007F33A9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1AC433C1BD9EBE800548E86;
-			remoteInfo = AWFinderSyncExtension;
+			remoteGlobalIDString = B123345E1BDE35FC00A53EE8;
+			remoteInfo = AWFinderSyncExtensionIntegration;
 		};
 		B1E700941BC3DEA3007F33A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -43,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B1AC43471BD9EBE900548E86 /* AWFinderSyncExtension.appex in Embed App Extensions */,
+				B12334691BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,22 +54,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AWFinderSyncExtensionIntegration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12334621BDE35FC00A53EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12334631BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AWFinderSyncExtensionIntegration.entitlements; sourceTree = "<group>"; };
+		B12334641BDE35FC00A53EE8 /* FinderSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderSync.h; sourceTree = "<group>"; };
+		B12334651BDE35FC00A53EE8 /* FinderSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderSync.m; sourceTree = "<group>"; };
 		B127BBE41BC4FA8A00DE0FB7 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
 		B127BBE51BC4FA8A00DE0FB7 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		B127BBE61BC4FA8A00DE0FB7 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		B13929EF1BD6231900A003AB /* SideBarMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuController.h; sourceTree = "<group>"; };
 		B13929F01BD6231900A003AB /* SideBarMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuController.m; sourceTree = "<group>"; };
-		B1AC433D1BD9EBE800548E86 /* AWFinderSyncExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AWFinderSyncExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1AC43401BD9EBE900548E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1AC43411BD9EBE900548E86 /* AWFinderSyncExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AWFinderSyncExtension.entitlements; sourceTree = "<group>"; };
-		B1AC43421BD9EBE900548E86 /* FinderSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderSync.h; sourceTree = "<group>"; };
-		B1AC43431BD9EBE900548E86 /* FinderSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderSync.m; sourceTree = "<group>"; };
+		B167CA3C1BDE426B002D4994 /* HelloWorldSocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HelloWorldSocket.entitlements; sourceTree = "<group>"; };
+		B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirWatchSclSync32x32.png; sourceTree = "<group>"; };
+		B1D3AC1F1BDF4E830051A80F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		B1D3AC201BDF4E830051A80F /* SclBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SclBanner.png; sourceTree = "<group>"; };
 		B1E700801BC3DEA3007F33A9 /* HelloWorldSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E700841BC3DEA3007F33A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E700851BC3DEA3007F33A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1E700861BC3DEA3007F33A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1E700881BC3DEA3007F33A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../HelloWorldSocket/Images.xcassets; sourceTree = "<group>"; };
 		B1E7008D1BC3DEA3007F33A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B1E700931BC3DEA3007F33A9 /* HelloWorldSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E700981BC3DEA3007F33A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +81,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1AC433A1BD9EBE800548E86 /* Frameworks */ = {
+		B123345C1BDE35FC00A53EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,6 +105,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12334601BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				B12334641BDE35FC00A53EE8 /* FinderSync.h */,
+				B12334651BDE35FC00A53EE8 /* FinderSync.m */,
+				B12334611BDE35FC00A53EE8 /* Supporting Files */,
+			);
+			path = AWFinderSyncExtensionIntegration;
+			sourceTree = "<group>";
+		};
+		B12334611BDE35FC00A53EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12334621BDE35FC00A53EE8 /* Info.plist */,
+				B12334631BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B13EC0F91BD61E8700B1C944 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,23 +133,16 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		B1AC433E1BD9EBE900548E86 /* AWFinderSyncExtension */ = {
+		B1D3AC1C1BDF48DF0051A80F /* Icons.iconset */ = {
 			isa = PBXGroup;
 			children = (
-				B1AC43421BD9EBE900548E86 /* FinderSync.h */,
-				B1AC43431BD9EBE900548E86 /* FinderSync.m */,
-				B1AC433F1BD9EBE900548E86 /* Supporting Files */,
+				B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */,
+				B1D3AC1F1BDF4E830051A80F /* Contents.json */,
+				B1D3AC201BDF4E830051A80F /* SclBanner.png */,
+				B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */,
 			);
-			path = AWFinderSyncExtension;
-			sourceTree = "<group>";
-		};
-		B1AC433F1BD9EBE900548E86 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B1AC43401BD9EBE900548E86 /* Info.plist */,
-				B1AC43411BD9EBE900548E86 /* AWFinderSyncExtension.entitlements */,
-			);
-			name = "Supporting Files";
+			name = Icons.iconset;
+			path = ../AWFinderSyncExtensionIntegration;
 			sourceTree = "<group>";
 		};
 		B1E700771BC3DEA3007F33A9 = {
@@ -131,7 +150,7 @@
 			children = (
 				B1E700821BC3DEA3007F33A9 /* HelloWorldSocket */,
 				B1E700961BC3DEA3007F33A9 /* HelloWorldSocketTests */,
-				B1AC433E1BD9EBE900548E86 /* AWFinderSyncExtension */,
+				B12334601BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */,
 				B1E700811BC3DEA3007F33A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,7 +160,7 @@
 			children = (
 				B1E700801BC3DEA3007F33A9 /* HelloWorldSocket.app */,
 				B1E700931BC3DEA3007F33A9 /* HelloWorldSocketTests.xctest */,
-				B1AC433D1BD9EBE800548E86 /* AWFinderSyncExtension.appex */,
+				B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,6 +168,8 @@
 		B1E700821BC3DEA3007F33A9 /* HelloWorldSocket */ = {
 			isa = PBXGroup;
 			children = (
+				B1D3AC1C1BDF48DF0051A80F /* Icons.iconset */,
+				B167CA3C1BDE426B002D4994 /* HelloWorldSocket.entitlements */,
 				B13EC0F91BD61E8700B1C944 /* Controllers */,
 				B1E700851BC3DEA3007F33A9 /* AppDelegate.h */,
 				B1E700861BC3DEA3007F33A9 /* AppDelegate.m */,
@@ -156,7 +177,6 @@
 				B127BBE41BC4FA8A00DE0FB7 /* MainWindowController.h */,
 				B127BBE51BC4FA8A00DE0FB7 /* MainWindowController.m */,
 				B127BBE61BC4FA8A00DE0FB7 /* MainWindowController.xib */,
-				B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */,
 				B1E700831BC3DEA3007F33A9 /* Supporting Files */,
 			);
 			path = HelloWorldSocket;
@@ -191,21 +211,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1AC433C1BD9EBE800548E86 /* AWFinderSyncExtension */ = {
+		B123345E1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1AC434A1BD9EBE900548E86 /* Build configuration list for PBXNativeTarget "AWFinderSyncExtension" */;
+			buildConfigurationList = B123346A1BDE35FC00A53EE8 /* Build configuration list for PBXNativeTarget "AWFinderSyncExtensionIntegration" */;
 			buildPhases = (
-				B1AC43391BD9EBE800548E86 /* Sources */,
-				B1AC433A1BD9EBE800548E86 /* Frameworks */,
-				B1AC433B1BD9EBE800548E86 /* Resources */,
+				B123345B1BDE35FC00A53EE8 /* Sources */,
+				B123345C1BDE35FC00A53EE8 /* Frameworks */,
+				B123345D1BDE35FC00A53EE8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AWFinderSyncExtension;
-			productName = AWFinderSyncExtension;
-			productReference = B1AC433D1BD9EBE800548E86 /* AWFinderSyncExtension.appex */;
+			name = AWFinderSyncExtensionIntegration;
+			productName = AWFinderSyncExtensionIntegration;
+			productReference = B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		B1E7007F1BC3DEA3007F33A9 /* HelloWorldSocket */ = {
@@ -220,7 +240,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B1AC43461BD9EBE900548E86 /* PBXTargetDependency */,
+				B12334681BDE35FC00A53EE8 /* PBXTargetDependency */,
 			);
 			name = HelloWorldSocket;
 			productName = HelloWorldSocket;
@@ -254,11 +274,21 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = AirWatch;
 				TargetAttributes = {
-					B1AC433C1BD9EBE800548E86 = {
+					B123345E1BDE35FC00A53EE8 = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 					B1E7007F1BC3DEA3007F33A9 = {
 						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
 					};
 					B1E700921BC3DEA3007F33A9 = {
 						CreatedOnToolsVersion = 6.3;
@@ -281,16 +311,17 @@
 			targets = (
 				B1E7007F1BC3DEA3007F33A9 /* HelloWorldSocket */,
 				B1E700921BC3DEA3007F33A9 /* HelloWorldSocketTests */,
-				B1AC433C1BD9EBE800548E86 /* AWFinderSyncExtension */,
+				B123345E1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1AC433B1BD9EBE800548E86 /* Resources */ = {
+		B123345D1BDE35FC00A53EE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D3AC1E1BDF493D0051A80F /* AirWatchSclSync32x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +331,9 @@
 			files = (
 				B1E7008B1BC3DEA3007F33A9 /* Images.xcassets in Resources */,
 				B127BBE81BC4FA8A00DE0FB7 /* MainWindowController.xib in Resources */,
+				B1D3AC221BDF4E830051A80F /* SclBanner.png in Resources */,
 				B1E7008E1BC3DEA3007F33A9 /* MainMenu.xib in Resources */,
+				B1D3AC211BDF4E830051A80F /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,11 +347,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1AC43391BD9EBE800548E86 /* Sources */ = {
+		B123345B1BDE35FC00A53EE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AC43441BD9EBE900548E86 /* FinderSync.m in Sources */,
+				B12334661BDE35FC00A53EE8 /* FinderSync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +377,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B1AC43461BD9EBE900548E86 /* PBXTargetDependency */ = {
+		B12334681BDE35FC00A53EE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1AC433C1BD9EBE800548E86 /* AWFinderSyncExtension */;
-			targetProxy = B1AC43451BD9EBE900548E86 /* PBXContainerItemProxy */;
+			target = B123345E1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */;
+			targetProxy = B12334671BDE35FC00A53EE8 /* PBXContainerItemProxy */;
 		};
 		B1E700951BC3DEA3007F33A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -368,17 +401,17 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B1AC43481BD9EBE900548E86 /* Debug */ = {
+		B123346B1BDE35FC00A53EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = AWFinderSyncExtension/AWFinderSyncExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AWFinderSyncExtensionIntegration/AWFinderSyncExtensionIntegration.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AWFinderSyncExtension/Info.plist;
+				INFOPLIST_FILE = AWFinderSyncExtensionIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,13 +419,13 @@
 			};
 			name = Debug;
 		};
-		B1AC43491BD9EBE900548E86 /* Release */ = {
+		B123346C1BDE35FC00A53EE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = AWFinderSyncExtension/AWFinderSyncExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AWFinderSyncExtensionIntegration/AWFinderSyncExtensionIntegration.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AWFinderSyncExtension/Info.plist;
+				INFOPLIST_FILE = AWFinderSyncExtensionIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorldSocket/HelloWorldSocket.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HelloWorldSocket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -494,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorldSocket/HelloWorldSocket.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HelloWorldSocket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -540,11 +575,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1AC434A1BD9EBE900548E86 /* Build configuration list for PBXNativeTarget "AWFinderSyncExtension" */ = {
+		B123346A1BDE35FC00A53EE8 /* Build configuration list for PBXNativeTarget "AWFinderSyncExtensionIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1AC43481BD9EBE900548E86 /* Debug */,
-				B1AC43491BD9EBE900548E86 /* Release */,
+				B123346B1BDE35FC00A53EE8 /* Debug */,
+				B123346C1BDE35FC00A53EE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

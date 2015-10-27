@@ -1,8 +1,8 @@
 //
 //  FinderSync.m
-//  AWFinderSyncExtension
+//  AWFinderSyncExtensionIntegration
 //
-//  Created by Airatch on 23/10/15.
+//  Created by Airatch on 26/10/15.
 //  Copyright (c) 2015 AirWatch. All rights reserved.
 //
 
@@ -18,11 +18,12 @@
 
 - (instancetype)init {
     self = [super init];
+    
 
     NSLog(@"%s launched from %@ ; compiled at %s", __PRETTY_FUNCTION__, [[NSBundle mainBundle] bundlePath], __TIME__);
 
     // Set up the directory we are syncing.
-    self.myFolderURL = [NSURL fileURLWithPath:@"/Users/Shared/MySyncExtension Documents"];
+    self.myFolderURL = [NSURL fileURLWithPath:@"/Users/airatch/PC-TEMP"];///Users/Shared/MySyncExtension Documents"];
     [FIFinderSyncController defaultController].directoryURLs = [NSSet setWithObject:self.myFolderURL];
 
     // Set up images for our badge identifiers. For demonstration purposes, this uses off-the-shelf images.
@@ -35,9 +36,14 @@
 #pragma mark - Primary Finder Sync protocol methods
 
 - (void)beginObservingDirectoryAtURL:(NSURL *)url {
+    
+    printf("User has opened the sync folder....11111");
+    
+    NSLog(@"User has opened the sync folder....");
+    
     // The user is now seeing the container's contents.
     // If they see it in more than one view at a time, we're only told once.
-    NSLog(@"beginObservingDirectoryAtURL:%@", url.filePathURL);
+    NSLog(@"\n beginObservingDirectoryAtURL:%@", url.filePathURL);
 }
 
 
@@ -58,11 +64,11 @@
 #pragma mark - Menu and toolbar item support
 
 - (NSString *)toolbarItemName {
-    return @"AWFinderSyncExtension";
+    return @"AWFinderSyncExtensionIntegration";
 }
 
 - (NSString *)toolbarItemToolTip {
-    return @"AWFinderSyncExtension: Click the toolbar item for a menu.";
+    return @"AWFinderSyncExtensionIntegration: Click the toolbar item for a menu.";
 }
 
 - (NSImage *)toolbarItemImage {

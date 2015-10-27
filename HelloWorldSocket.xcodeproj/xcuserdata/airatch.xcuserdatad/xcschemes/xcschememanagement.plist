@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>AWFinderSyncExtensionIntegration.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>HelloWorldSocket.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B123345E1BDE35FC00A53EE8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B1AC433C1BD9EBE800548E86</key>
 		<dict>
 			<key>primary</key>
