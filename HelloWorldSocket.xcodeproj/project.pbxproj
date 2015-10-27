@@ -12,9 +12,8 @@
 		B127BBE71BC4FA8A00DE0FB7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B127BBE51BC4FA8A00DE0FB7 /* MainWindowController.m */; };
 		B127BBE81BC4FA8A00DE0FB7 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B127BBE61BC4FA8A00DE0FB7 /* MainWindowController.xib */; };
 		B13929F11BD6231900A003AB /* SideBarMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13929F01BD6231900A003AB /* SideBarMenuController.m */; };
-		B1D3AC1E1BDF493D0051A80F /* AirWatchSclSync32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */; };
-		B1D3AC211BDF4E830051A80F /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC1F1BDF4E830051A80F /* Contents.json */; };
-		B1D3AC221BDF4E830051A80F /* SclBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC201BDF4E830051A80F /* SclBanner.png */; };
+		B1D3AC271BDF64B90051A80F /* SclBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC261BDF64B90051A80F /* SclBanner.png */; };
+		B1D3AC291BDF665B0051A80F /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = B1D3AC281BDF665B0051A80F /* AppIcon.iconset */; };
 		B1E700871BC3DEA3007F33A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E700861BC3DEA3007F33A9 /* AppDelegate.m */; };
 		B1E700891BC3DEA3007F33A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E700881BC3DEA3007F33A9 /* main.m */; };
 		B1E7008B1BC3DEA3007F33A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */; };
@@ -65,15 +64,14 @@
 		B13929EF1BD6231900A003AB /* SideBarMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarMenuController.h; sourceTree = "<group>"; };
 		B13929F01BD6231900A003AB /* SideBarMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarMenuController.m; sourceTree = "<group>"; };
 		B167CA3C1BDE426B002D4994 /* HelloWorldSocket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HelloWorldSocket.entitlements; sourceTree = "<group>"; };
-		B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AirWatchSclSync32x32.png; sourceTree = "<group>"; };
-		B1D3AC1F1BDF4E830051A80F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		B1D3AC201BDF4E830051A80F /* SclBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SclBanner.png; sourceTree = "<group>"; };
+		B1D3AC261BDF64B90051A80F /* SclBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SclBanner.png; sourceTree = "<group>"; };
+		B1D3AC281BDF665B0051A80F /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
 		B1E700801BC3DEA3007F33A9 /* HelloWorldSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E700841BC3DEA3007F33A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E700851BC3DEA3007F33A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1E700861BC3DEA3007F33A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1E700881BC3DEA3007F33A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../HelloWorldSocket/Images.xcassets; sourceTree = "<group>"; };
+		B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B1E7008D1BC3DEA3007F33A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B1E700931BC3DEA3007F33A9 /* HelloWorldSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E700981BC3DEA3007F33A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,18 +131,6 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		B1D3AC1C1BDF48DF0051A80F /* Icons.iconset */ = {
-			isa = PBXGroup;
-			children = (
-				B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */,
-				B1D3AC1F1BDF4E830051A80F /* Contents.json */,
-				B1D3AC201BDF4E830051A80F /* SclBanner.png */,
-				B1D3AC1D1BDF493D0051A80F /* AirWatchSclSync32x32.png */,
-			);
-			name = Icons.iconset;
-			path = ../AWFinderSyncExtensionIntegration;
-			sourceTree = "<group>";
-		};
 		B1E700771BC3DEA3007F33A9 = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +154,6 @@
 		B1E700821BC3DEA3007F33A9 /* HelloWorldSocket */ = {
 			isa = PBXGroup;
 			children = (
-				B1D3AC1C1BDF48DF0051A80F /* Icons.iconset */,
 				B167CA3C1BDE426B002D4994 /* HelloWorldSocket.entitlements */,
 				B13EC0F91BD61E8700B1C944 /* Controllers */,
 				B1E700851BC3DEA3007F33A9 /* AppDelegate.h */,
@@ -185,6 +170,9 @@
 		B1E700831BC3DEA3007F33A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B1D3AC261BDF64B90051A80F /* SclBanner.png */,
+				B1D3AC281BDF665B0051A80F /* AppIcon.iconset */,
+				B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */,
 				B1E700841BC3DEA3007F33A9 /* Info.plist */,
 				B1E700881BC3DEA3007F33A9 /* main.m */,
 			);
@@ -321,7 +309,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D3AC1E1BDF493D0051A80F /* AirWatchSclSync32x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1E7008B1BC3DEA3007F33A9 /* Images.xcassets in Resources */,
+				B1D3AC291BDF665B0051A80F /* AppIcon.iconset in Resources */,
+				B1D3AC271BDF64B90051A80F /* SclBanner.png in Resources */,
 				B127BBE81BC4FA8A00DE0FB7 /* MainWindowController.xib in Resources */,
-				B1D3AC221BDF4E830051A80F /* SclBanner.png in Resources */,
 				B1E7008E1BC3DEA3007F33A9 /* MainMenu.xib in Resources */,
-				B1D3AC211BDF4E830051A80F /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

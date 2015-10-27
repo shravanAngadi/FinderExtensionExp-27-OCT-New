@@ -29,6 +29,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleIconFile</key>
-	<string>Icons</string>
+	<string>AppIcon</string>
 </dict>
 </plist>
