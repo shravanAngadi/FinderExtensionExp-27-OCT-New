@@ -42,7 +42,9 @@ static int count;
 }
 
 -(IBAction) addPCToFav:(id)sender{
-    NSString *absolutePath = @"/Users/airatch/PersonalContent-Sync";
+//    NSString *absolutePath = @"/Users/airatch/PersonalContent-Sync";
+  
+    NSString *absolutePath = @"/Users/airatch/PC-TEMP";
     
     NSLog(@"User said add his PC to fav's %@ ", absolutePath);
     
@@ -56,7 +58,9 @@ static int count;
 }
 
 -(IBAction) removePCFromFav:(id)sender{
-    NSString *absolutePath = @"/Users/airatch/PersonalContent-Sync";
+    //    NSString *absolutePath = @"/Users/airatch/PersonalContent-Sync";
+    
+    NSString *absolutePath = @"/Users/airatch/PC-TEMP";
     
     NSLog(@"Remove PC from fav's %@ ", absolutePath);
     

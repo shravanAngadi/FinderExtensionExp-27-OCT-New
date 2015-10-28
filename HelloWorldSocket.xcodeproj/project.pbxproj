@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B102BA091BDF6A4C00DDF7EB /* sync-on.png in Resources */ = {isa = PBXBuildFile; fileRef = B102BA081BDF6A4C00DDF7EB /* sync-on.png */; };
+		B102BA0B1BDFA17600DDF7EB /* sidebar_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = B102BA0A1BDFA17600DDF7EB /* sidebar_16x16.png */; };
 		B12334661BDE35FC00A53EE8 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = B12334651BDE35FC00A53EE8 /* FinderSync.m */; };
 		B12334691BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B127BBE71BC4FA8A00DE0FB7 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B127BBE51BC4FA8A00DE0FB7 /* MainWindowController.m */; };
@@ -53,6 +55,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B102BA081BDF6A4C00DDF7EB /* sync-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sync-on.png"; sourceTree = "<group>"; };
+		B102BA0A1BDFA17600DDF7EB /* sidebar_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sidebar_16x16.png; path = ../sidebar_16x16.png; sourceTree = "<group>"; };
 		B123345F1BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AWFinderSyncExtensionIntegration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12334621BDE35FC00A53EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12334631BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AWFinderSyncExtensionIntegration.entitlements; sourceTree = "<group>"; };
@@ -103,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B102BA061BDF696F00DDF7EB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1D3AC261BDF64B90051A80F /* SclBanner.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		B102BA071BDF6A4C00DDF7EB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B102BA0A1BDFA17600DDF7EB /* sidebar_16x16.png */,
+				B102BA081BDF6A4C00DDF7EB /* sync-on.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		B12334601BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +137,7 @@
 		B12334611BDE35FC00A53EE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B102BA071BDF6A4C00DDF7EB /* resources */,
 				B12334621BDE35FC00A53EE8 /* Info.plist */,
 				B12334631BDE35FC00A53EE8 /* AWFinderSyncExtensionIntegration.entitlements */,
 			);
@@ -170,7 +192,7 @@
 		B1E700831BC3DEA3007F33A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1D3AC261BDF64B90051A80F /* SclBanner.png */,
+				B102BA061BDF696F00DDF7EB /* resources */,
 				B1D3AC281BDF665B0051A80F /* AppIcon.iconset */,
 				B1E7008A1BC3DEA3007F33A9 /* Images.xcassets */,
 				B1E700841BC3DEA3007F33A9 /* Info.plist */,
@@ -309,6 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B102BA091BDF6A4C00DDF7EB /* sync-on.png in Resources */,
+				B102BA0B1BDFA17600DDF7EB /* sidebar_16x16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

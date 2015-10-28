@@ -56,9 +56,16 @@
     NSLog(@"requestBadgeIdentifierForURL:%@", url.filePathURL);
     
     // For demonstration purposes, this picks one of our two badges, or no badge at all, based on the filename.
-    NSInteger whichBadge = [url.filePathURL hash] % 3;
-    NSString* badgeIdentifier = @[@"", @"One", @"Two"][whichBadge];
-    [[FIFinderSyncController defaultController] setBadgeIdentifier:badgeIdentifier forURL:url];
+//    NSInteger whichBadge = [url.filePathURL hash] % 3;
+//    
+//    
+//    NSString* badgeIdentifier = @[@"", @"One", @"Two"][whichBadge];
+//    [[FIFinderSyncController defaultController] setBadgeIdentifier:badgeIdentifier forURL:url];
+    
+    
+    [[FIFinderSyncController defaultController] setBadgeImage:[NSImage imageNamed:@"sync-on.png"] label:NSLocalizedString(@"Custom", nil) forBadgeIdentifier:@"customStatusIcon"];
+    
+    
 }
 
 #pragma mark - Menu and toolbar item support
@@ -72,13 +79,13 @@
 }
 
 - (NSImage *)toolbarItemImage {
-    return [NSImage imageNamed:NSImageNameCaution];
+    return [NSImage imageNamed: @"sidebar_16x16.png"];//NSImageNameCaution];
 }
 
 - (NSMenu *)menuForMenuKind:(FIMenuKind)whichMenu {
     // Produce a menu for the extension.
     NSMenu *menu = [[NSMenu alloc] initWithTitle:@""];
-    [menu addItemWithTitle:@"Example Menu Item" action:@selector(sampleAction:) keyEquivalent:@""];
+    [menu addItemWithTitle:@"Copy link to share" action:@selector(sampleAction:) keyEquivalent:@""];
 
     return menu;
 }
