@@ -31,7 +31,7 @@
     [[FIFinderSyncController defaultController] setBadgeImage:[NSImage imageNamed: NSImageNameCaution] label:@"Status Two" forBadgeIdentifier:@"Two"];
     
     return self;
-}
+}           
 
 #pragma mark - Primary Finder Sync protocol methods
 
